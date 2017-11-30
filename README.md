@@ -30,7 +30,7 @@ CMD [ "python", "./your-daemon-or-script.py" ]
 `docker run -it --rm -v "$PWD":/app -w /app yiivgeny/pymorphy2 python your-daemon-or-script.py`
 
 ### Теги
-Теги соответствуют версиям pymorphy2 со словарями собранными подходящей версией сборщика. Доступные версии:
+Теги соответствуют версиям pymorphy2. Доступные версии:
 * 0.8
 
 ## Ссылки
