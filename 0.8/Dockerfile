@@ -1,7 +1,7 @@
 FROM python:3
 LABEL maintainer="e.a.blinov@gmail.com"
 
-RUN pip install pymorphy2==0.8[fast]
+RUN pip install pymorphy2[fast]==0.8
 
 # Получение сборщика словарей подходящей версии, сборка словаря и обновление соответствующего пакета
 WORKDIR /tmp/pymorphy2-dicts-build
