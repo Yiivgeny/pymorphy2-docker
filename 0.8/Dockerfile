@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.6
 LABEL maintainer="e.a.blinov@gmail.com"
 
 RUN pip install pymorphy2[fast]==0.8
